@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turum - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/cadastrologin.css">
+    
+    
+    <link rel="shortcut icon" href="./img/dark_logo_white_backgrounde.jpg" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark sticky-top">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                  <img src="./img/Logo Branco Transparente_1.png" alt="Turum Logo" width="40" height="50">
+                  <img src="./img/Logo escrito transparente branco.png" alt="Turum Logo" width="80" height="40">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-start" id="navbarCollapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="box-imagem-lateral"class="col-sm-5 d-none d-md-block g-0">
+                    <img src="./img/imagemlogin.jpg" alt="">
+                </div>
+                <div id="container-form" class="col-sm-7 g-0 container d-flex justify-content-center align-items-center">                    
+                 <div id="box-form" class="container d-flex justify-content-center align-items-center">
+                          <div class="signup-form">
+                            <form action="./index.html" method="get">
+                                <h2>Login</h2>
+                                <hr>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <span class="fa fa-user"></span>
+                                            </span>                    
+                                        </div>
+                                        <input type="text" class="form-control" name="username" placeholder="Email ou nome de usuário" required="required">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fa fa-lock"></i>
+                                                </span>                    
+                                            </div>
+                                            <input type="text" class="form-control" name="password" placeholder="Senha" required="required">
+                                        </div>
+                                        <p class="d-flex justify-content-end"><a href="#">Esqueci a senha</a></p>
+                                    </div>
+                                    <div class="form-group">
+                                    <div class="input-group">
+                                        
+                                </div>
+                                <div class="form-group">
+                                    
+                                </div>
+                                <div class="form-group">
+                                   <button type="submit" class="btn btn-primary btn-lg">Fazer Login</button>
+                                </div>
+                                <p id="entrarXS" class="d-md-none">Ainda não possui conta? <a href="./cadastro.html">Clique aqui</a></p>
+                                <p id="entrarMD" class="d-none d-md-block">Ainda não possui conta? <a href="./cadastro.html">Clique aqui</a></p>
+                            </form>    
+                </div>
+              </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

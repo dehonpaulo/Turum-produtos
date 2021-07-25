@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+#navbar {
+  background-color: rgb(0, 0, 0);
+}
+
+#barra {
+  border-left: 2px solid;
+  border-color: azure;
+}
+
+div.carousel-inner {
+  /* max-height: 40rem; */
+  height: 95vh;
+}
+
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  color: #f7f7f7;
+}
+
+#carouselExampleIndicators {
+  width: 100%;
+  object-fit: cover;
+}
+
+#div-imagens {
+  padding: 10;
+  margin: 10px 0;
+}
+
+.efeito-prod {
+  width: 20em;
+  transition: all 0.5s ease-in-out;
+}
+
+.efeito-prod:hover {
+  transform: scale(1.03);
+}
+
+.tamanho-row {
+  width: 95%;
+  padding: 30px 0;
+}
+
+.imagens {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hahaha {
+
+    background:  url(https://i.gifer.com/Ng1m.gif) no-repeat center center fixed; 
+    background-size: cover;
+
+    height: 100vh;
+}
+
+
+#btn-gif {
+  width: 200px;
+  height: 50px;
+
+  background-color: black;
+  border: none;
+}
